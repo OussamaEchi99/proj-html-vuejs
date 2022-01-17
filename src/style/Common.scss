@@ -11,6 +11,29 @@
     font-weight: bold;
 }
 
+.slides_btn{
+    color: $brand_primary_color;
+    background-color: white;
+    font-weight: bold;
+    position: absolute;
+    top: 40%;
+    border-top-left-radius: 200px;
+    border-top-right-radius: 200px;
+    padding: 12px 35px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.prev_slide{
+    left: -38px;
+    transform: rotate(90deg);
+}
+
+.next_slide{
+    right: -38px;
+    transform: rotate(270deg);
+}
+
 .svg_invert{
     filter: invert(1);
 }
