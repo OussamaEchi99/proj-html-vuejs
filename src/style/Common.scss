@@ -1,0 +1,16 @@
+@import './Variables.scss';
+
+.container{
+    width: 70%;
+    margin: auto;
+}
+
+.primary_btn{
+    color: white;
+    background-color: $brand_primary_color;
+    font-weight: bold;
+}
+
+.svg_invert{
+    filter: invert(1);
+}
