@@ -6,6 +6,7 @@
         <Specials :specialsMenuDetails="specialsMenu"/>
         <BuildYourOwnPizza />
         <People />
+        <BrandCollaboration :brandsImages="brands" />
     </main>
 </template>
 
@@ -16,6 +17,7 @@ import Proverbs from "./Proverbs.vue";
 import Specials from "./Specials.vue";
 import BuildYourOwnPizza from "./BuildYourOwnPizza.vue";
 import People from "./People.vue";
+import BrandCollaboration from "./BrandCollaboration.vue";
 
 export default {
     name: 'Main',
@@ -25,7 +27,8 @@ export default {
         Proverbs,
         Specials,
         BuildYourOwnPizza,
-        People
+        People,
+        BrandCollaboration
     },
     data: function () {
         return {
@@ -59,7 +62,24 @@ export default {
                     cost: 30,
                     description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent ut aliquam dui'
                 }
-            ]
+            ],
+            brands: [
+                {
+                    img: '1'
+                },
+                {
+                    img: '2'
+                },
+                {
+                    img: '3'
+                },
+                {
+                    img: '4'
+                },
+                {
+                    img: '5'
+                }
+            ],
         }
     }
 }

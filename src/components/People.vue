@@ -81,6 +81,11 @@ section{
         width: calc(100% / 4);
         position: relative;
 
+        > img{
+            height: 100%;
+            object-fit: cover;
+        }
+
         .overlay{
             position: absolute;
             top: 0;
@@ -91,6 +96,11 @@ section{
             width: 100%;
             opacity: 0;
             transition: .5s ease;
+
+            > img{
+                height: 100%;
+                object-fit: cover;
+            }
 
             .text {
                 position: absolute;
