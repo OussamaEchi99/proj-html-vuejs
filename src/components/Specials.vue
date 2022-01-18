@@ -79,7 +79,7 @@ export default {
                         margin-left: 15px;
                         span{
                             text-transform: uppercase;
-                            font-weight: bold;
+                            font-weight: 500;
                             font-size: 26px;
                         }
                         p{

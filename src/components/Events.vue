@@ -33,6 +33,11 @@ export default {
             position: relative;
             overflow: hidden;
 
+            > img{
+                height: 100%;
+                object-fit: cover;
+            }
+
             img{
                 width: 100%;
             }
