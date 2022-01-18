@@ -120,9 +120,10 @@ section{
         left: 30%;
         transform: translate(-50%,-50%);
         color: white;
-        width: 27%;
+        width: 24%;
         margin: auto;
         font-size: 55px;
+        line-height: 90px;
     }
 
     .pizza_svg_grey{
