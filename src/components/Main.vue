@@ -2,18 +2,21 @@
     <main>
         <Banner />
         <Events :eventsImages="events" />
+        <Proverbs />
     </main>
 </template>
 
 <script>
 import Banner from "./Banner.vue";
 import Events from "./Events.vue";
+import Proverbs from "./Proverbs.vue";
 
 export default {
     name: 'Main',
     components: {
         Banner,
-        Events
+        Events,
+        Proverbs
     },
     data: function () {
         return {

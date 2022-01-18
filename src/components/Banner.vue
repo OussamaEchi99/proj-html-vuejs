@@ -45,9 +45,5 @@ export default {
             }
         }
     }
-    .next_slide{
-        right: -38px;
-        transform: rotate(270deg);
-    }
 }
 </style>

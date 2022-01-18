@@ -37,3 +37,14 @@
 .svg_invert{
     filter: invert(1);
 }
+
+.pizza_svg{
+    position: absolute;
+    right: 40px;
+    border-radius: 50%;
+    padding: 10px 15px;
+}
+
+.pizza_svg_grey{
+    background-color: #f6f7f2;
+}
