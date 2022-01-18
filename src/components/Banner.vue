@@ -23,6 +23,7 @@ export default {
     height: 450px;
     background-image: url('../assets/img/sky.png');
     position: relative;
+    overflow-x: hidden;
 
     .pizza_type_text{
         width: 100%;

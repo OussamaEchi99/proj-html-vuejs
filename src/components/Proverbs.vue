@@ -28,6 +28,7 @@ export default {
 
     section{
         position: relative;
+        overflow-x: hidden;
         font-weight: bold;
         text-transform: uppercase;
         .phrase {

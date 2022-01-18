@@ -4,6 +4,7 @@
         <Events :eventsImages="events" />
         <Proverbs />
         <Specials :specialsMenuDetails="specialsMenu"/>
+        <BuildYourOwnPizza />
     </main>
 </template>
 
@@ -12,6 +13,7 @@ import Banner from "./Banner.vue";
 import Events from "./Events.vue";
 import Proverbs from "./Proverbs.vue";
 import Specials from "./Specials.vue";
+import BuildYourOwnPizza from "./BuildYourOwnPizza.vue";
 
 export default {
     name: 'Main',
@@ -19,7 +21,8 @@ export default {
         Banner,
         Events,
         Proverbs,
-        Specials
+        Specials,
+        BuildYourOwnPizza
     },
     data: function () {
         return {
