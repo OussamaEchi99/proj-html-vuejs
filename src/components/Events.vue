@@ -44,7 +44,7 @@ export default {
 
             .image_hover{
                 position: absolute;
-                display: none;
+                opacity: 0;
                 top: 0;
                 left: 0;
                 right: 0;
@@ -62,11 +62,16 @@ export default {
                     font-size: 25px;
                     padding: 25px 27px;
                     border-radius: 50%;
+                    opacity: 0;
                 }
             }
 
             &:hover .image_hover{
-                display: block;
+                opacity: 1;
+            }
+
+            &:hover .image_hover a{
+                opacity: 1;
             }
         }
     }
