@@ -7,6 +7,7 @@
         <BuildYourOwnPizza />
         <People />
         <BrandCollaboration :brandsImages="brands" />
+        <PizzaMenu :pizzasMenusInfo="pizzasMenu"/>
     </main>
 </template>
 
@@ -18,6 +19,7 @@ import Specials from "./Specials.vue";
 import BuildYourOwnPizza from "./BuildYourOwnPizza.vue";
 import People from "./People.vue";
 import BrandCollaboration from "./BrandCollaboration.vue";
+import PizzaMenu from "./PizzaMenu.vue";
 
 export default {
     name: 'Main',
@@ -28,7 +30,8 @@ export default {
         Specials,
         BuildYourOwnPizza,
         People,
-        BrandCollaboration
+        BrandCollaboration,
+        PizzaMenu
     },
     data: function () {
         return {
@@ -78,6 +81,47 @@ export default {
                 },
                 {
                     img: '5'
+                }
+            ],
+            pizzasMenu: [
+                {
+                    img: '1',
+                    name: 'Bismark',
+                    cost: '30.00',
+                    discount: '35.00',
+                    sold: false
+                },
+                {
+                    img: '2',
+                    name: 'Fuori di zucca',
+                    cost: '7.00',
+                    priceTo: '50.00',
+                    sold: false
+                },
+                {
+                    img: '3',
+                    name: 'Valdostana',
+                    cost: '55.00',
+                    sold: true
+                },
+                {
+                    img: '4',
+                    name: 'Pizza tartufata',
+                    cost: '45.00',
+                    sold: false
+                },
+                {
+                    img: '5',
+                    name: 'Francescana',
+                    cost: '25.00',
+                    sold: false
+                },
+                {
+                    img: '6',
+                    name: 'Campagnola',
+                    cost: '5.00',
+                    priceTo: '95.00',
+                    sold: false
                 }
             ],
         }
