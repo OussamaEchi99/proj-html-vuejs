@@ -9,6 +9,7 @@
         <BrandCollaboration :brandsImages="brands" />
         <PizzaMenu :pizzasMenusInfo="pizzasMenu"/>
         <EventsDatePlace :eventsDatePlaceInfo="EventsDatePlace"/>
+        <Reservation />
     </main>
 </template>
 
@@ -22,6 +23,7 @@ import People from "./People.vue";
 import BrandCollaboration from "./BrandCollaboration.vue";
 import PizzaMenu from "./PizzaMenu.vue";
 import EventsDatePlace from "./EventsDatePlace.vue";
+import Reservation from "./Reservation.vue";
 
 export default {
     name: 'Main',
@@ -34,7 +36,8 @@ export default {
         People,
         BrandCollaboration,
         PizzaMenu,
-        EventsDatePlace
+        EventsDatePlace,
+        Reservation
     },
     data: function () {
         return {
