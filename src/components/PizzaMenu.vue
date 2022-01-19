@@ -19,6 +19,7 @@
                 <a v-if="pizza.sold" class="sold" href="#">SOLD</a>
             </div>
         </div>
+        <a href="#" class="pizza_svg pizza_svg_grey"><img src="../assets/img/svg-4.svg" alt="Pizza Image"></a>
     </section>
 </template>
 
@@ -35,6 +36,7 @@ export default {
 @import '../style/Variables.scss';
 
 section{
+    position: relative;
     .title{
         display: flex;
         flex-direction: column;
@@ -106,6 +108,9 @@ section{
                 font-size: 10px;
             }
         }
+    }
+    .pizza_svg{
+        top: 210px
     }
 }
 </style>
