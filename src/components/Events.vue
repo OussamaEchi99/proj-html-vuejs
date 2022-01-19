@@ -47,8 +47,11 @@ export default {
                 display: none;
                 top: 0;
                 left: 0;
+                right: 0;
+                bottom: 0;
                 width: 100%;
                 height: 100%;
+                transition: 0.5s ease;
 
                 a{
                     position: absolute;
