@@ -8,6 +8,7 @@
         <People />
         <BrandCollaboration :brandsImages="brands" />
         <PizzaMenu :pizzasMenusInfo="pizzasMenu"/>
+        <EventsDatePlace :eventsDatePlaceInfo="EventsDatePlace"/>
     </main>
 </template>
 
@@ -20,6 +21,7 @@ import BuildYourOwnPizza from "./BuildYourOwnPizza.vue";
 import People from "./People.vue";
 import BrandCollaboration from "./BrandCollaboration.vue";
 import PizzaMenu from "./PizzaMenu.vue";
+import EventsDatePlace from "./EventsDatePlace.vue";
 
 export default {
     name: 'Main',
@@ -31,7 +33,8 @@ export default {
         BuildYourOwnPizza,
         People,
         BrandCollaboration,
-        PizzaMenu
+        PizzaMenu,
+        EventsDatePlace
     },
     data: function () {
         return {
@@ -124,6 +127,29 @@ export default {
                     sold: false
                 }
             ],
+            EventsDatePlace: [
+                {
+                    day: '02',
+                    month: 'Nov',
+                    nameEvent: 'Traditional neapolitan pies in Kyoto Pizza Mercato',
+                    place: '204 E. Pizzetta Tommaso',
+                    notLast: true
+                },
+                {
+                    day: '03',
+                    month: 'Nov',
+                    nameEvent: 'Terazza patio dining space opening this weekend',
+                    place: '204 E. Pizzetta Tommaso',
+                    notLast: true
+                },
+                {
+                    day: '05',
+                    month: 'Nov',
+                    nameEvent: 'Sienna private dining room with Stéphane Brunn',
+                    place: '204 E. Pizzetta Tommaso',
+                    notLast: false
+                },
+            ]
         }
     }
 }
